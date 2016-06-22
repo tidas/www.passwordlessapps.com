@@ -1,0 +1,97 @@
+/*--
+    Common Css
+--*/
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 25px;
+    color: #3b4045;
+    font:14px/22px 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      -webkit-font-smoothing: antialiased;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 300;
+    margin: 0px;
+}
+h1 {
+    font-size: 44px;
+    line-height: 56px;
+    color: #fff;
+}
+h2 {
+  font-size: 30px;
+  line-height: 35px;
+}
+h3 {
+    font-size: 23px;
+    line-height: 25px;
+}
+h4 {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 400;
+}
+p {
+    font-size: 14px;
+    margin: 0 0 30px;
+    line-height: 1.5;
+    color: #929292;
+    font-family:'Raleway',Light;
+    font-weight: 300;
+}
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+a {
+    -webkit-transition: all 0.5s ease-in-out 0s;
+    -moz-transition: all 0.5s ease-in-out 0s;
+    -o-transition: all 0.5s ease-in-out 0s;
+    transition: all 0.5s ease-in-out 0s;
+}
+
+a:focus,
+.btn:focus,
+.btn:active:focus {
+    box-shadow: none;
+    outline: 0 none;
+}
+a,
+a:active,
+a:focus,
+a:active {
+    text-decoration: none;
+}
+
+.container {
+  width: 100%;
+  max-width: 1170px;
+}
+.container-fluid {
+  padding-right: 0;
+  padding-left: 0;
+}
+.section {
+  padding: 50px 0 20px;
+}
+.eNews {
+  font-family: 'Raleway';
+  font-weight: 600;
+  font-size: 16px;
+  padding-top: 7px;
+  color:#0b5983;
+  text-align: center;
+}
+
+.eNews .fa {
+  font-size: 22px;
+  margin-right

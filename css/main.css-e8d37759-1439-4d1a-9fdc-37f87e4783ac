@@ -1,0 +1,415 @@
+/*--
+    Common Css
+--*/
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 25px;
+    color: #3b4045;
+    font:14px/22px 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      -webkit-font-smoothing: antialiased;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 300;
+    margin: 0px;
+}
+h1 {
+    font-size: 44px;
+    line-height: 56px;
+    color: #fff;
+}
+h2 {
+  font-size: 30px;
+  line-height: 35px;
+}
+h3 {
+    font-size: 23px;
+    line-height: 25px;
+}
+h4 {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 400;
+}
+p {
+    font-size: 14px;
+    margin: 0 0 30px;
+    line-height: 1.5;
+    color: #929292;
+    font-family:'Raleway',Light;
+    font-weight: 300;
+}
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+a {
+    -webkit-transition: all 0.5s ease-in-out 0s;
+    -moz-transition: all 0.5s ease-in-out 0s;
+    -o-transition: all 0.5s ease-in-out 0s;
+    transition: all 0.5s ease-in-out 0s;
+}
+
+a:focus,
+.btn:focus,
+.btn:active:focus {
+    box-shadow: none;
+    outline: 0 none;
+}
+a,
+a:active,
+a:focus,
+a:active {
+    text-decoration: none;
+}
+
+.container {
+  width: 100%;
+}
+.container-fluid {
+  padding-right: 0;
+  padding-left: 0;
+}
+.section {
+  padding: 50px 0 20px;
+}
+.eNews {
+  font-family: 'Raleway';
+  font-weight: 600;
+  font-size: 16px;
+  padding-top: 7px;
+  color:#0b5983;
+  text-align: center;
+}
+.eNews img {
+  position: relative;
+  top: -2px;
+  margin-right: 10px;
+}
+
+.arrowRight {
+  position: relative;
+  top: -15px;
+}
+
+  .relativeimagediv {
+    padding: 0;
+  }
+/*--
+    custom heading
+--*/
+
+.row.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+}
+.row.no-gutters > [class^="col-"],
+.row.no-gutters > [class*=" col-"] {
+  padding-right: 0;
+  padding-left: 0;
+  max-width: 100%;
+}
+.relativeimagediv{
+  position: relative;
+}
+.relativeimagediv .relativeimageoverlay{
+  position: absolute;
+  text-align: center;
+  vertical-align: middle;
+      padding-left: 28%;
+    padding-top: 22%;
+    width: 70%
+}
+.relativeimagediv .relativeimageoverlay1{
+  position: absolute;
+  text-align: center;
+  vertical-align: middle;
+      padding-left: 25%;
+    padding-top: 27%;
+    width: 70%
+}
+.relativeimagediv .relativeimageoverlay2{
+  position: absolute;
+  text-align: center;
+  vertical-align: middle;
+      padding-left: 20%;
+    padding-top: 22%;
+    width: 70%
+}
+.relativeimagediv .relativeimageoverlay3{
+  position: absolute;
+  text-align: center;
+  vertical-align: middle;
+      padding-left: 25%;
+    padding-top: 25%;
+    width: 70%
+}
+.relativeimagediv .relativeimageoverlay4{
+  position: absolute;
+  text-align: center;
+  vertical-align: middle;
+    padding-left: 25%;
+    width: 100%;
+    
+}
+
+.relativeimagediv .relativeimageoverlay5{
+  position: absolute;
+  text-align: center;
+  vertical-align: middle;
+    padding-left: 10%;
+    width: :100%;
+}
+.relativeimagediv .relativeimageoverlay6{
+  position: absolute;
+  text-align: center;
+  vertical-align: middle;
+    padding-left: 10%;
+    width: :100%;
+}
+.relativeimagediv .relativeimageoverlay7{
+  position: absolute;
+  text-align: center;
+  vertical-align: middle;
+    padding-left: 18%;
+    width: :100%;
+}
+.relativeimagediv .relativeimageoverlay8{
+  position: absolute;
+  text-align: center;
+  vertical-align: middle;
+  padding-left: 15%;
+ width: :100%;
+}
+.relativeimagediv .relativeimageoverlay9{
+  position: absolute;
+  text-align: center;
+  vertical-align: middle;
+  padding-left: 15%;
+ width: :100%;
+}
+.imgnogutter{
+  padding-left: 0;
+  padding-right: 0;
+  width: 100%;
+  height:100%;
+}
+.buttonkopce {
+            text-align: left;
+            font-size: 16px;
+            font-family: "Raleway", Light;
+            font-weight: 300;
+            background-color: Transparent;
+            background-repeat:no-repeat;
+            border: none;
+            cursor:pointer;
+            overflow: hidden;
+           
+           width:100%;
+           height: 40px;
+        }
+.buttonkopce:hover{
+           border-style: solid;
+           border-width: 1px;
+           border-radius: 5px;
+           color:green;
+}
+
+
+.buttontrans {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
+.btnbot{
+
+  background: transparent;
+  color: #F2F2F2;
+
+  /* CSS Transition */
+  -webkit-transition: background .2s ease-in-out, border .2s ease-in-out;
+  -moz-transition: background .2s ease-in-out, border .2s ease-in-out;
+  -ms-transition: background .2s ease-in-out, border .2s ease-in-out;
+  -o-transition: background .2s ease-in-out, border .2s ease-in-out;
+  transition: background .2s ease-in-out, border .2s ease-in-out;
+
+}
+.borderwrap {
+  text-align: center;
+  border: 1px solid #aaadae;
+  border-radius: 8px;
+  background: #fff;
+  height: auto;
+  margin-bottom: 30px;
+}
+
+.borderwrap2 {
+  margin-top: 30px;
+
+
+}
+
+.borderwrap p {
+  margin: 0;
+}
+
+.borderwrap a {
+    color:#73c38a;
+    text-decoration: underline;
+
+}
+
+.borderwrap2{
+  text-align:center;
+  border-style: solid;
+  border-width: 1px;
+  border-padding:5px;
+  border-radius:10px;
+  border-spacing:5px 5px 5px 5px ;
+}
+.borderwrap2 h2{
+    font-size: 14px;
+    font-family: 'Raleway',SemiBold;
+    font-weight: 600;
+    word-wrap: normal;
+    color:#73c38a;
+    padding-top: 20px;
+    line-height: 0px;
+}
+.borderwrap2 p{
+    font-size: 16px;
+    font-family: 'Raleway',Light;
+    font-weight: 300;
+    word-wrap: normal;
+    color:#9F9F9F;
+    padding: 5px
+}
+.borderwrap2 a{
+    font-size: 16px;
+    font-family: 'Raleway','Light';
+    word-wrap: normal;
+    color:#73c38a;
+    padding: 5px
+
+}
+
+.pricing {
+  text-align: center;
+}
+.pricing h1
+{
+    color: #0b5983;
+    padding-bottom: 30px;
+    text-transform: capitalize;
+    font-weight: 300;
+    font-size: 41px;
+    line-height: 40px;
+    font-family: 'Raleway',SemiBold;
+    font-weight: 600
+}
+.pricing h2
+{
+    color: #73c38a;
+    padding-bottom: 30px;
+    text-transform: capitalize;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 40px;
+    font-family: 'Raleway',SemiBold;
+    font-weight: 600;
+
+}
+.pricing p
+{
+    color: #0b5983;
+    padding-bottom: 30px;
+    text-transform: capitalize;
+    font-weight: 300;
+    font-size: 41px;
+    line-height: 40px;
+    font-family: 'Raleway';
+    font-style: 'SemiBold'
+}
+.heading {
+    text-align: center;
+    color: #9F9F9F;
+    /* padding-bottom: 70px; */
+}
+
+.greenHeading {
+  color: #73c38a;
+  font-size: 20px;
+  font-weight: 600;
+}
+.greentext {
+    text-align: center;
+}
+
+
+.sub-heading {
+    margin-bottom: 30px;
+}
+
+.sub-heading h3 {
+    font-size: 30px;
+    line-height: 40px;
+}
+
+.sub-heading h3 small {
+    font-weight: 300;
+}
+
+.sub-heading h4 {
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.sub-heading > p {
+    font-size: 14px;
+    color: #777;
+}
+.contentimageright {
+  margin-top: 20px;
+}
+.contentimageright2 {
+  margin-top: 20px;
+}
+.btn {    
+    border-radius: 0;
+}
+
+.btn-home,
+.callToAction2 {
+  background-color: #2075a4;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 18px;
+  padding: 8px;
+  margin: 0 auto;
+  width: 200px;
+  display: block;
+}
+
+.btn-home:hover,
+.btn-home:focus {
+    background-color: #fff;
+    color: #555;
+}
+
+.btn-border {
+    border: 1px solid #fff;
+    padding: 13px 40px;
+    color: #fff;
+    font-size: 15px;

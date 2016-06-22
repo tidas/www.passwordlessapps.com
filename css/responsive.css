@@ -1,0 +1,250 @@
+/*		Tablet Layout: 768px.
+		Gutters: 24px.
+		Outer margins: 28px.
+		Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  header {
+    text-align: center;
+  }
+  header .navbar-default {
+    padding-right: 0;
+    width: 93%;
+  }
+  #service .heading p {
+    font-size: 14px;
+  }
+  #about .heading p {
+    font-size: 14px;
+  }
+  #about .bottom-text {
+    padding-bottom: 20px;
+  }
+  #call-to-action .block p {
+    padding-bottom: 20px;
+  }
+  #contact .heading p {
+    font-size: 14px;
+  }
+  #contact .block input {
+    width: 100%;
+  }
+  #contact .block textarea {
+    width: 100%;
+  }
+}
+/*		Mobile Layout: 320px.
+		Gutters: 24px.
+		Outer margins: 34px.
+		Inherits styles from: Default Layout.
+---------------------------------------------
+cols    1     2      3
+px      68    160    252    */
+@media only screen and (max-width: 767px) {
+
+  .navbar-nav {
+    margin: 0 -10px;
+  }
+
+  .nav > li {
+    text-align: right;
+  }
+
+  .navbar-default .navbar-collapse {
+    border: none;
+  }
+
+  .navbar-collapse {
+    box-shadow: none;
+  }
+  header {
+    text-align: center;
+  }
+  header .navbar-default {
+    padding-right: 0;
+    width: 100%;
+    margin-left: -15px;
+  }
+  header .navbar-default .navbar-toggle {
+    margin-right: 10px;
+    margin-top: 20px;
+  }
+  header .block h1 {
+    font-size: 25px;
+  }
+  header .block p {
+    padding-right: 0;
+  }
+  header .block .counter h2 {
+    font-size: 20px;
+  }
+  header .block .counter ul li {
+    margin-right: 5px;
+    margin-bottom: 20px;
+  }
+  #service .heading p {
+    font-size: 15px;
+    padding: 0px 5px;
+  }
+  #about .heading p {
+    font-size: 15px;
+    padding: 0px 5px;
+  }
+  #about .bottom-text {
+    padding-bottom: 20px;
+  }
+  #call-to-action {
+    text-align: center;
+  }
+  #call-to-action .block h2 {
+    font-size: 20px;
+  }
+  #call-to-action .block p {
+    padding-bottom: 20px;
+    padding-right: 0px;
+  }
+  #contact .heading p {
+    font-size: 15px;
+  }
+  #contact .block input {
+    width: 100%;
+  }
+  #contact .block textarea {
+    width: 100%;
+  }
+
+}
+
+@media only screen and (min-width: 768px) {
+
+  #hero-area .content-block {
+    padding-top: 50px;
+  }
+
+  .btn-home {
+    margin-top: 30px;
+  }
+
+  .stayTouch {
+    padding-top: 50px;
+  }
+
+  .stayInput {
+    margin-top: 0;
+  }
+
+  .staySubmit {
+    margin-top: 0;
+  }
+
+  .form-control {
+    background: none;
+  }
+
+  .relativeimagediv {
+    height: 280px;
+  }
+
+  .navbar-right {
+    background: rgba(0,0,0,.2);
+    padding: 0 10px;
+  }
+
+  .passTitle {
+    text-align: center;
+  }
+  .relativeimagediv .relativeimageoverlay {
+    padding-left: 25%;
+    padding-top: 14%;
+    width: 67%;
+  }
+
+  .relativeimagediv .relativeimageoverlay1 {
+    padding-left: 25%;
+    padding-top: 18%;
+    width: 73%;
+  }
+
+  .relativeimagediv .relativeimageoverlay2 {
+    padding-left: 18%;
+    padding-top: 13%;
+    width: 75%;
+  }
+
+  .relativeimagediv .relativeimageoverlay3 {
+    padding-left: 27%;
+    padding-top: 15%;
+    width: 72%;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .relativeimagediv {
+    height: 250px;
+  }
+
+  .relativeimagediv .relativeimageoverlay {
+    padding-left: 18%;
+    padding-top: 18%;
+    width: 76%;
+  }
+
+  .relativeimagediv .relativeimageoverlay1 {
+    padding-left: 18%;
+    padding-top: 26%;
+    width: 80%;
+  }
+
+  .relativeimagediv .relativeimageoverlay2 {
+    padding-left: 14%;
+    padding-top: 18%;
+    width: 86%;
+  }
+
+  .relativeimagediv .relativeimageoverlay3 {
+    padding-left: 18%;
+    padding-top: 19%;
+    width: 76%;
+  }
+} 
+
+@media only screen and (min-width: 1200px) {
+  #hero-area {
+    padding: 200px 0;
+  }
+
+  .btn-home {
+    width: 60%;
+    margin-left: 20%;
+  }
+
+  .relativeimagediv {
+    height: 300px;
+  }
+
+  .relativeimagediv .relativeimageoverlay {
+    padding-left: 19%;
+    padding-top: 14%;
+    width: 72%;
+  }
+
+  .relativeimagediv .relativeimageoverlay1 {
+    padding-left: 19%;
+    padding-top: 21%;
+    width: 78%;
+  }
+
+  .relativeimagediv .relativeimageoverlay2 {
+    padding-left: 16%;
+    padding-top: 13%;
+    width: 85%;
+  }
+
+  .relativeimagediv .relativeimageoverlay3 {
+    padding-left: 21%;
+    padding-top: 14%;
+    width: 76%;
+  }
+} 
